@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  height: 100vh;
+  background-color: rgb(16, 17, 17);
+  position: relative;
+  padding: 40px ;
+}
+
+dialog::backdrop{
+    opacity: 40%;
+    background-color: #fff;
+}
+
+.main-button {
+  padding: 10px 20px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.popup-container{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 33%;
+}
+
+.dialog-container {
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+  height: 100vh;
+  position: relative;
+}
+
+.saving {
+  padding: 20px 10px;
+  background-color: rgb(68, 144, 196);
+  margin: 0;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.dialog-section {
+  margin: 20px;
+  overflow-y: scroll;
+  height: 400px;
+}
+
+.title {
+  padding: 10px 0;
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0;
+}
+
+.sec-input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  margin: 0;
+  outline: none;
+}
+
+.para {
+  padding: 10px 0;
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0;
+}
+
+.blue-box {
+  padding: 10px;
+  background-color: rgb(68, 144, 196);
+  margin-bottom: 10px;
+}
+
+.add-schema {
+  display: block;
+  text-decoration: none;
+  color: rgb(12, 194, 94);
+  font-weight: 500;
+  text-align: left;
+  padding: 4px 0;
+}
+
+.span-arrow{
+  padding-right: 10px;
+  font-weight: bolder;
+}
+
+.footer {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.save-button {
+  padding: 10px 20px;
+  outline: none;
+  background-color: rgb(68, 144, 196);
+  color: white;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.cancel-button {
+  padding: 10px 20px;
+  outline: none;
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.remove-icon {
+  cursor: pointer;
+  margin-left: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: red;
+  padding: 0 5px;
+  border-radius: 50%;
+}
+
+.fallback{
+    color: #fff;
+    text-align: center;
+    font-size: larger;
+    font-weight: 800;
+}
